@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Lint code
-        run: npm run lint
+        run: npm run lin
   test:
     runs-on: ubuntu-latest
     steps:
