@@ -53,7 +53,7 @@ jobs:
           path: test.json
   build:
     needs: test
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
         uses: actions/checkout@v6
